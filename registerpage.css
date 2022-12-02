@@ -1,0 +1,93 @@
+.background{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(214, 136, 136);
+    overflow: hidden;
+    background: rgb(79, 56, 12);
+
+} 
+.regispage{
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgb(42, 35, 35);
+    width: 450px;
+    padding: 2rem 0rem;
+    background: rgb(73, 60, 7);
+    height: 600px;
+    border-radius: 5px;
+    
+
+
+}
+.input-field i{
+    text-align: center;
+    line-height: 55px;
+    color: #805f5f;
+    font-size: 1.1rem;
+}
+.input-field input::placeholder{
+    color: rgb(213, 183, 183);
+    font-weight: 500;
+}
+
+
+.input-field input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: rgb(250, 250, 250);
+    text-align: left
+}
+.remember{
+    width: 380px;
+    display: flex;
+    justify-content: start;
+    padding: 1rem;
+    
+}
+
+.title{
+font-size: 2.2rem;
+color: rgb(255, 255, 255);
+margin-bottom: 10px;
+font-family: Algerian;
+}
+.input-field{
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #c42323;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    text-align: center;
+    
+}
+.login{
+    width: 380px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    cursor: pointer;
+    background-color: #6C63FF;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+}
+.login:hover{
+    box-shadow: 0 0 10px #6C63FF,
+    0 0 20px #6C63FF,
+    0 0 30px #6C63FF;
+}
